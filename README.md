@@ -27,7 +27,6 @@ iris-Segmentation-mediapipe-python-master/
 
 1. Clone the Repository
 
-```bash
 git clone https://github.com/rishika712/iris-segmentation.git
 cd iris-segmentation/iris-Segmentation-mediapipe-python-master
 
