@@ -34,32 +34,20 @@ cd iris-segmentation/iris-Segmentation-mediapipe-python-master
 
 For Linux/macOS:
 
-bash
-Copy
-Edit
 python3 -m venv venv
 source venv/bin/activate
 
 For Windows:
 
-bash
-Copy
-Edit
 python -m venv venv
 venv\Scripts\activate
 
 3. Install Dependencies
 
-bash
-Copy
-Edit
 pip install -r requirements.txt
 
 4. Run the Application
 
-bash
-Copy
-Edit
 python main.py
 This will activate your webcam and start the real-time iris segmentation.
 
