@@ -25,33 +25,33 @@ iris-Segmentation-mediapipe-python-master/
 
 ## 🚀 How to Run the Project
 
-1. Clone the Repository
+1. **Clone the Repository**
 
 git clone https://github.com/rishika712/iris-segmentation.git
 cd iris-segmentation/iris-Segmentation-mediapipe-python-master
 
-2. Set Up a Virtual Environment (Optional but Recommended)
+2. **Set Up a Virtual Environment (Optional but Recommended)**
 
-For Linux/macOS:
+**For Linux/macOS:**
 
 python3 -m venv venv
 source venv/bin/activate
 
-For Windows:
+**For Windows:**
 
 python -m venv venv
 venv\Scripts\activate
 
-3. Install Dependencies
+3. **Install Dependencies**
 
 pip install -r requirements.txt
 
-4. Run the Application
+4. **Run the Application**
 
 python main.py
 This will activate your webcam and start the real-time iris segmentation.
 
-🎯 How It Works
+## 🎯 How It Works
 Face Mesh Detection: Utilizes MediaPipe's Face Mesh solution to detect 468 facial landmarks.
 
 Iris Landmark Extraction: Specific landmark indices correspond to the iris region:
@@ -64,5 +64,5 @@ Segmentation Mask: The segmentation_mask.py module processes these landmarks to 
 
 Visualization: OpenCV is used to display the original frame with the segmented iris overlay.
 
-📄 License
+## 📄 License
 This project is licensed under the MIT License.
